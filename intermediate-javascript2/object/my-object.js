@@ -11,3 +11,5 @@ delete contact.email.work;
 /* delete contact.keyName; or delete contact['keyName']; // to delete items from an object */
 
 console.log(contact);
+
+console.log(Object.isFrozen(contact)); // check if an object is extensible
