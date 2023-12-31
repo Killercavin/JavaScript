@@ -23,7 +23,7 @@ for (i in contact){
 	return console.log(i);
 } */
 
-// checking fot existence using `Object.keys` method
+// checking fot existence using `Object.keys` to retrieve keys from the object and `Object.values` method to retrieve the values from the object
 
-let contactKeys = Object.values(contact);
+let contactKeys = Object.keys(contact);
 console.log(contactKeys);
