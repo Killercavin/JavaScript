@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+    margin: 5px;
+    padding: 2.5px;
+}
+
+h1{
+    cursor: pointer;
+}
